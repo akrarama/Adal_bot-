@@ -1,0 +1,6 @@
+aiogram>=3.13,<4
+google-genai>=1.0
+psycopg[binary,pool]>=3.2
+pgvector>=0.3
+python-dotenv>=1.0
+pypdf>=5.0
