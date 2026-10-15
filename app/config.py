@@ -8,7 +8,7 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://adal:adal@localhost:5432/adal")
 
-GEN_MODEL = os.getenv("GEN_MODEL", "gemini-2.5-flash")
+GEN_MODEL = os.getenv("GEN_MODEL", "gemini-3.8-flash")
 EMBED_MODEL = os.getenv("EMBED_MODEL", "gemini-embedding-001")
 EMBED_DIM = int(os.getenv("EMBED_DIM", "768"))
 
